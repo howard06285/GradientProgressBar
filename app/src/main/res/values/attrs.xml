@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomGradientProgressBar">
+        <attr name="progressBarText" format="string" />
+        <attr name="progressBarCornerRadius" format="integer" />
+        <attr name="progressBarDrawable" format="reference" />
+        <attr name="progressBarMaskLayerColor" format="reference" />
+        <attr name="progressBarStrokeColor" format="reference" />
+        <attr name="progressBarDuration" format="integer" />
+        <attr name="progressBarTextViewIcon" format="reference" />
+        <attr name="progressBarTextSize" format="dimension" />
+        <attr name="progressBarTextColor" format="reference" />
+    </declare-styleable>
+
+</resources>
