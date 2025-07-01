@@ -277,6 +277,7 @@ limitations under the License.
 - 完整的XML屬性支援
 - 動畫效果支援
 
+<!--
 ## 支持開發
 
 如果這個庫對您有幫助，您可以通過以下方式支持開發：
@@ -300,3 +301,4 @@ limitations under the License.
 ---
 
 **感謝您的支持！您的贊助將幫助我持續改進和維護這個專案。**
+-->
