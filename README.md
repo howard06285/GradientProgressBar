@@ -277,6 +277,26 @@ limitations under the License.
 - 完整的XML屬性支援
 - 動畫效果支援
 
+## 支持開發
+
+如果這個庫對您有幫助，您可以通過以下方式支持開發：
+
+### ⭐ Star this project
+給我一個星星是最好的支持！
+
+### ☕ Buy me a coffee
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/howard)
+
+### 💝 Sponsor on GitHub
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-sponsor-pink.svg?style=for-the-badge&logo=github)](https://github.com/sponsors/howard)
+
+### 🎁 PayPal Donation
+[![PayPal](https://img.shields.io/badge/PayPal-donate-blue.svg?style=for-the-badge&logo=paypal)](https://paypal.me/howard)
+
+### 🪙 Cryptocurrency
+- **Bitcoin**: `1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa`
+- **Ethereum**: `0x742d35Cc6634C0532925a3b8D1A175E8F6A9F1a3`
+
 ---
 
-如果你覺得這個庫有用，請給我們一個⭐️！
+**感謝您的支持！您的贊助將幫助我持續改進和維護這個專案。**
