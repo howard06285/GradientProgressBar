@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_pink_fcb3ac">#FCB3AC</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="custom_gradient_progressbar_default_text_size">12sp</dimen>
+    <declare-styleable name="CustomGradientProgressBar">
+        
+        <attr format="string" name="progressBarText"/>
+        <attr format="dimension" name="progressBarTextSize"/>
+        <attr format="reference|color" name="progressBarTextColor"/>
+        <attr format="reference" name="progressBarTextIcon"/>
+        <attr format="boolean" name="progressBarTextVisible"/>
+        
+        
+        <attr format="dimension" name="progressBarCornerRadius"/>
+        <attr format="reference" name="progressBarBackground"/>
+        <attr format="reference|color" name="progressBarMaskColor"/>
+        <attr format="reference|color" name="progressBarStrokeColor"/>
+        <attr format="dimension" name="progressBarStrokeWidth"/>
+        <attr format="dimension" name="progressBarHeight"/>
+        
+        
+        <attr format="integer" name="progressBarAnimationDuration"/>
+        <attr format="boolean" name="progressBarAnimationEnabled"/>
+        
+        
+        <attr format="integer" name="progressBarInitialProgress"/>
+        <attr format="integer" name="progressBarMaxProgress"/>
+        
+        
+        <attr format="enum" name="gradientProgressBarStyle">
+            <enum name="rounded" value="0"/>
+            <enum name="rectangular" value="1"/>
+        </attr>
+        
+        
+        <attr format="enum" name="progressBarMaskStyle">
+            <enum name="arc" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

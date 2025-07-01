@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res"><file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res/drawable/ic_lightning_white.xml" preprocessing="true" qualifiers=""><generated-file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_lightning_white.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/pngs/debug/drawable-mdpi/ic_lightning_white.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/pngs/debug/drawable-ldpi/ic_lightning_white.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/pngs/debug/drawable-xxhdpi/ic_lightning_white.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/pngs/debug/drawable-hdpi/ic_lightning_white.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/pngs/debug/drawable-xhdpi/ic_lightning_white.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_lightning_white.xml" qualifiers="anydpi-v24" type="drawable"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res"><file name="gradient_progressbar_layerlist" path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res/drawable/gradient_progressbar_layerlist.xml" qualifiers="" type="drawable"/><file name="custom_gradient_progressbar" path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res/layout/custom_gradient_progressbar.xml" qualifiers="" type="layout"/><file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res/values/colors.xml" qualifiers=""><color name="white">#FFFFFF</color><color name="color_pink_fcb3ac">#FCB3AC</color></file><file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res/values/dimens.xml" qualifiers=""><dimen name="custom_gradient_progressbar_default_text_size">12sp</dimen></file><file path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="CustomGradientProgressBar">
+        
+        <attr format="string" name="progressBarText"/>
+        <attr format="dimension" name="progressBarTextSize"/>
+        <attr format="reference|color" name="progressBarTextColor"/>
+        <attr format="reference" name="progressBarTextIcon"/>
+        <attr format="boolean" name="progressBarTextVisible"/>
+        
+        
+        <attr format="dimension" name="progressBarCornerRadius"/>
+        <attr format="reference" name="progressBarBackground"/>
+        <attr format="reference|color" name="progressBarMaskColor"/>
+        <attr format="reference|color" name="progressBarStrokeColor"/>
+        <attr format="dimension" name="progressBarStrokeWidth"/>
+        <attr format="dimension" name="progressBarHeight"/>
+        
+        
+        <attr format="integer" name="progressBarAnimationDuration"/>
+        <attr format="boolean" name="progressBarAnimationEnabled"/>
+        
+        
+        <attr format="integer" name="progressBarInitialProgress"/>
+        <attr format="integer" name="progressBarMaxProgress"/>
+        
+        
+        <attr format="enum" name="gradientProgressBarStyle">
+            <enum name="rounded" value="0"/>
+            <enum name="rectangular" value="1"/>
+        </attr>
+        
+        
+        <attr format="enum" name="progressBarMaskStyle">
+            <enum name="arc" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr>
+    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/howard/AndroidStudioProjects/GradientProgressBar/gradientprogressbar/build/generated/res/resValues/debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CustomGradientProgressBar">
+        
+        <attr format="string" name="progressBarText"/>
+        <attr format="dimension" name="progressBarTextSize"/>
+        <attr format="reference|color" name="progressBarTextColor"/>
+        <attr format="reference" name="progressBarTextIcon"/>
+        <attr format="boolean" name="progressBarTextVisible"/>
+        
+        
+        <attr format="dimension" name="progressBarCornerRadius"/>
+        <attr format="reference" name="progressBarBackground"/>
+        <attr format="reference|color" name="progressBarMaskColor"/>
+        <attr format="reference|color" name="progressBarStrokeColor"/>
+        <attr format="dimension" name="progressBarStrokeWidth"/>
+        <attr format="dimension" name="progressBarHeight"/>
+        
+        
+        <attr format="integer" name="progressBarAnimationDuration"/>
+        <attr format="boolean" name="progressBarAnimationEnabled"/>
+        
+        
+        <attr format="integer" name="progressBarInitialProgress"/>
+        <attr format="integer" name="progressBarMaxProgress"/>
+        
+        
+        <attr format="enum" name="gradientProgressBarStyle">
+            <enum name="rounded" value="0"/>
+            <enum name="rectangular" value="1"/>
+        </attr>
+        
+        
+        <attr format="enum" name="progressBarMaskStyle">
+            <enum name="arc" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr>
+    </declare-styleable></configuration></mergedItems></merger>

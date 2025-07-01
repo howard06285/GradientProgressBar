@@ -1,29 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity"
+    tools:ignore="ResourceName">
 
-    <com.shigaga.gradientprogressbar.CustomGradientProgressBar
-        android:id="@+id/customGradientProgressBar"
-        android:layout_width="300dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/tv"
-        tools:ignore="MissingConstraints" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CustomGradientProgressBar Demo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- Basic Progress Bar -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Progress Bar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.shigaga.gradientprogressbar.CustomGradientProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            app:progressBarText="Charging 65%"
+            app:progressBarInitialProgress="65"
+            app:progressBarCornerRadius="12dp" />
+
+        <!-- Progress Bar with Custom Colors -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Colors"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.shigaga.gradientprogressbar.CustomGradientProgressBar
+            android:id="@+id/progressBar2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            app:progressBarText="Loading 40%"
+            app:progressBarInitialProgress="40"
+            app:progressBarMaskColor="#FF5722"
+            app:progressBarStrokeColor="#FF5722"
+            app:progressBarCornerRadius="24dp" />
+
+        <!-- Progress Bar with Linear Mask -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Mask Style"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.shigaga.gradientprogressbar.CustomGradientProgressBar
+            android:id="@+id/progressBar3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            app:progressBarText="Processing 75%"
+            app:progressBarInitialProgress="75"
+            app:progressBarMaskStyle="linear"
+            app:progressBarMaskColor="#4CAF50"
+            app:progressBarStrokeColor="#4CAF50"
+            app:progressBarCornerRadius="8dp" />
+
+        <!-- Progress Bar without Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Without Text"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.shigaga.gradientprogressbar.CustomGradientProgressBar
+            android:id="@+id/progressBar4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            app:progressBarInitialProgress="90"
+            app:progressBarTextVisible="false"
+            app:progressBarMaskColor="#9C27B0"
+            app:progressBarStrokeColor="#9C27B0"
+            app:progressBarCornerRadius="16dp" />
+
+        <!-- Rectangular Style -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rectangular Style"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.shigaga.gradientprogressbar.CustomGradientProgressBar
+            android:id="@+id/progressBar5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="24dp"
+            app:progressBarText="Download 25%"
+            app:progressBarInitialProgress="25"
+            app:gradientProgressBarStyle="rectangular"
+            app:progressBarMaskColor="#FF9800"
+            app:progressBarStrokeColor="#FF9800" />
+
+        <!-- Control Buttons -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interactive Controls"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnIncrease"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="Increase (+10)" />
+
+            <Button
+                android:id="@+id/btnDecrease"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="Decrease (-10)" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnAnimate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="Animate to 100%" />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="Reset to 0%" />
+
+        </LinearLayout>
+
+        <!-- Animated Progress Bar for Testing -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interactive Progress Bar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.shigaga.gradientprogressbar.CustomGradientProgressBar
+            android:id="@+id/progressBarInteractive"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            app:progressBarText="Interactive 50%"
+            app:progressBarInitialProgress="50"
+            app:progressBarCornerRadius="28dp"
+            app:progressBarTextSize="16sp"
+            app:progressBarMaskColor="#2196F3"
+            app:progressBarStrokeColor="#2196F3"
+            app:progressBarAnimationDuration="800" />
+
+    </LinearLayout>
+
+</ScrollView>

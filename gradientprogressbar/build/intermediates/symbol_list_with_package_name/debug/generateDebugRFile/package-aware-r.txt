@@ -1,0 +1,34 @@
+com.shigaga.gradientprogressbar
+attr gradientProgressBarStyle
+attr progressBarAnimationDuration
+attr progressBarAnimationEnabled
+attr progressBarBackground
+attr progressBarCornerRadius
+attr progressBarHeight
+attr progressBarInitialProgress
+attr progressBarMaskColor
+attr progressBarMaskStyle
+attr progressBarMaxProgress
+attr progressBarStrokeColor
+attr progressBarStrokeWidth
+attr progressBarText
+attr progressBarTextColor
+attr progressBarTextIcon
+attr progressBarTextSize
+attr progressBarTextVisible
+color color_pink_fcb3ac
+color white
+dimen custom_gradient_progressbar_default_text_size
+drawable gradient_progressbar_layerlist
+drawable ic_lightning_white
+id arc
+id linear
+id progressBarBgImageView
+id progressBarCover
+id progressBarLayout
+id progressBarOuterFrame
+id progressBarText
+id rectangular
+id rounded
+layout custom_gradient_progressbar
+styleable CustomGradientProgressBar gradientProgressBarStyle progressBarAnimationDuration progressBarAnimationEnabled progressBarBackground progressBarCornerRadius progressBarHeight progressBarInitialProgress progressBarMaskColor progressBarMaskStyle progressBarMaxProgress progressBarStrokeColor progressBarStrokeWidth progressBarText progressBarTextColor progressBarTextIcon progressBarTextSize progressBarTextVisible

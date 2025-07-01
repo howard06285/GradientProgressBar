@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomGradientProgressBar">
+        <!-- Progress Bar Text Configuration -->
+        <attr name="progressBarText" format="string" />
+        <attr name="progressBarTextSize" format="dimension" />
+        <attr name="progressBarTextColor" format="reference|color" />
+        <attr name="progressBarTextIcon" format="reference" />
+        <attr name="progressBarTextVisible" format="boolean" />
+        
+        <!-- Progress Bar Appearance -->
+        <attr name="progressBarCornerRadius" format="dimension" />
+        <attr name="progressBarBackground" format="reference" />
+        <attr name="progressBarMaskColor" format="reference|color" />
+        <attr name="progressBarStrokeColor" format="reference|color" />
+        <attr name="progressBarStrokeWidth" format="dimension" />
+        <attr name="progressBarHeight" format="dimension" />
+        
+        <!-- Animation Configuration -->
+        <attr name="progressBarAnimationDuration" format="integer" />
+        <attr name="progressBarAnimationEnabled" format="boolean" />
+        
+        <!-- Progress Configuration -->
+        <attr name="progressBarInitialProgress" format="integer" />
+        <attr name="progressBarMaxProgress" format="integer" />
+        
+        <!-- Style Configuration -->
+        <attr name="gradientProgressBarStyle" format="enum">
+            <enum name="rounded" value="0" />
+            <enum name="rectangular" value="1" />
+        </attr>
+        
+        <!-- Mask Layer Configuration -->
+        <attr name="progressBarMaskStyle" format="enum">
+            <enum name="arc" value="0" />
+            <enum name="linear" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

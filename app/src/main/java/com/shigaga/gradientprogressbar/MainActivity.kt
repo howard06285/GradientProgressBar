@@ -16,22 +16,44 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.customGradientProgressBar.setProgressValue(50, true)
-        binding.customGradientProgressBar.setProgressBarCornerRadius(10)
-        binding.customGradientProgressBar.setProgressBarText("Progress bar demo")
-//            .setStartColor(getColor(R.color.purple_200))
-//            .setEndColor(getColor(R.color.purple_500))
-//            .setTextSize(16f)
-//            .setTextColor(getColor(R.color.white))
-//            .setShowText(true)
-//            .setShowProgress(true)
-//            .setProgressWidth(20f)
-//            .setCornerRadius(10f)
+        setupProgressBars()
+        setupClickListeners()
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+    }
+
+    private fun setupProgressBars() {
+        // All progress bars are already configured in XML
+        // This demonstrates that the library can be used entirely through XML attributes
+    }
+
+    private fun setupClickListeners() {
+        binding.btnIncrease.setOnClickListener {
+            val currentProgress = binding.progressBarInteractive.getProgress()
+            val newProgress = (currentProgress + 10).coerceAtMost(100)
+            binding.progressBarInteractive.setProgress(newProgress, true)
+            binding.progressBarInteractive.setText("Interactive ${newProgress}%")
+        }
+
+        binding.btnDecrease.setOnClickListener {
+            val currentProgress = binding.progressBarInteractive.getProgress()
+            val newProgress = (currentProgress - 10).coerceAtLeast(0)
+            binding.progressBarInteractive.setProgress(newProgress, true)
+            binding.progressBarInteractive.setText("Interactive ${newProgress}%")
+        }
+
+        binding.btnAnimate.setOnClickListener {
+            binding.progressBarInteractive.setProgress(100, true)
+            binding.progressBarInteractive.setText("Interactive 100%")
+        }
+
+        binding.btnReset.setOnClickListener {
+            binding.progressBarInteractive.setProgress(0, true)
+            binding.progressBarInteractive.setText("Interactive 0%")
         }
     }
 }

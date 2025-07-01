@@ -36,10 +36,14 @@ android {
 
     buildFeatures{
         viewBinding = true
+        buildConfig = true
     }
+    resourcePrefix = "shigaga_app_" // 建議加上 prefix
 }
 
 dependencies {
+    // Library module dependency
+    implementation(project(":gradientprogressbar"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
