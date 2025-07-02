@@ -2,6 +2,10 @@
 
 一個功能豐富的Android漸層進度條庫，提供優美的動畫效果和高度的自訂性。
 
+## App Screenshot
+
+![Screenshot](images/screenshot.png)
+
 ## 功能特色
 
 - ✨ **漸層背景**: 支援自訂漸層背景
