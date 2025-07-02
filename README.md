@@ -5,7 +5,7 @@
 ## 📸 App Screenshot
 
 <p align="center">
-  <img src="images/screenshot.png" width="50%" />
+  <img src="images/screenshot_2.png" width="50%" />
 </p>
 
 
