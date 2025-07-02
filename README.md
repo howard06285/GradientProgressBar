@@ -2,9 +2,13 @@
 
 一個功能豐富的Android漸層進度條庫，提供優美的動畫效果和高度的自訂性。
 
-## App Screenshot
+## 📸 App Screenshot
 
-![Screenshot](images/screenshot.png)
+<p align="center">
+  <img src="images/screenshot.png" width="50%" />
+</p>
+
+
 
 ## 功能特色
 
