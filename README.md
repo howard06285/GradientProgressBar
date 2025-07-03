@@ -299,9 +299,5 @@ limitations under the License.
 ### 💝 Sponsor on GitHub
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-sponsor-pink.svg?style=for-the-badge&logo=github)](https://github.com/sponsors/howard06285)
 
-<!--
-### 🎁 PayPal Donation
-[![PayPal](https://img.shields.io/badge/PayPal-donate-blue.svg?style=for-the-badge&logo=paypal)](https://paypal.me/howard06285)
--->
 
 **感謝您的支持！您的贊助將幫助我持續改進和維護這個專案。**
